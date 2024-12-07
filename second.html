@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="mb-5 ">
+        <div class="container w-50 box my-5 ">
+            <h2 class="text-center mb-3 pt-5 fs-1">Smart Login System</h2>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <input type="text" class="form-control mb-3 w-75" placeholder="Enter your name" name="name" id="mUname">
+                <input type="text" class="form-control mb-3 w-75" placeholder="Enter your email" name="email" id="mUemail">
+                <input type="password" class="form-control mb-3 w-75 " placeholder="Enter your password" name="password" id="mUpass">
+                <p id="error" class="text-center text-danger d-none">All inputs is required</p>
+                <p id="error2" class="text-center text-danger d-none">make sure that the password containes capital letters and numbers</p>
+                <p id="Success" class="text-center text-success d-none">Success</p>
+                <p id="alreadythere" class="text-center text-danger d-none">This email already exists</p>
+                <div class="d-grid gap-2 mb-3 w-75">
+                <button id="submit" href="" class="btn btn-outline-light" type="button">Sign Up</button>
+                </div>
+                <p class="text-center text-white fw-semibold mb-5">Don’t have an account? <a href="index.html" class=" text-white" id="signin">Sign In</a></p>
+            </div>
+        </div>
+      
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/second.js"></script>
+</body>
+</html>
